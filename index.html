@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>万物互联 极致体验</title>
+  <!-- 附件中的 Font Awesome 图标库 -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <style>
+    /* 引入附件中的字体 */
+    @font-face {
+      font-family: "LiXuke";
+      src: url("fonts/书法.ttf") format("truetype");
+    }
+    @font-face {
+      font-family: "PinyonScript";
+      src: url("fonts/PinyonScript-Regular.ttf") format("truetype");
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #ffffff;
+      color: #333333;
+      font-family: "Microsoft YaHei", "微软雅黑", "PingFang SC", sans-serif;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 30px;
+    }
+
+    /* ===== 顶部主标题区 ===== */
+    header {
+      text-align: center;
+      padding: 70px 0 50px;
+    }
+    header h1 {
+      font-family: "LiXuke", "华文行楷", serif;
+      font-weight: normal;
+      font-size: 64px;
+      color: #000000;
+      letter-spacing: 6px;
+      white-space: nowrap;
+    }
+
+    /* ===== 中部双栏内容区 ===== */
+    .intro {
+      padding: 30px 0 60px;
+    }
+    .intro-columns {
+      display: flex;
+      justify-content: center;
+      gap: 80px;
+    }
+    .intro-col {
+      flex: 1;
+      max-width: 420px;
+      text-align: center;
+    }
+    .intro-col .icon {
+      width: 100px;
+      height: auto;
+    }
+    .intro-col p {
+      margin-top: 24px;
+      font-size: 14px;
+      line-height: 2;
+      color: #333333;
+      text-align: justify;
+    }
+
+    /* ===== 底部平台支持区 ===== */
+    .platform {
+      text-align: center;
+      padding: 30px 0 80px;
+    }
+    .platform h2 {
+      font-size: 30px;
+      font-weight: bold;
+      color: #000000;
+      margin-bottom: 50px;
+    }
+    .platform-items {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+    }
+    .platform-item {
+      flex: 1;
+      max-width: 170px;
+      text-align: center;
+    }
+    .platform-item img {
+      width: 64px;
+      height: auto;
+    }
+    .platform-item p {
+      margin-top: 16px;
+      font-size: 15px;
+      color: #000000;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 顶部主标题 -->
+  <header>
+    <h1>万物互联&nbsp;&nbsp;极致体验</h1>
+  </header>
+
+  <!-- 中部双栏内容 -->
+  <section class="intro">
+    <div class="container">
+      <div class="intro-columns">
+        <div class="intro-col">
+          <img class="icon" src="images/1.png" alt="HTML5">
+          <p>【HTML5】HTML5不仅仅是HTML规范的当前最新版本，HTML5进化的重大意义还在于HTML5从技术层面带来了八个类别的革新。HTML5规范以&ldquo;用户至上&rdquo;为宗旨。也就是说在遇到冲突时，规范的优先级为：用户&gt;页面作者&gt;实现者（浏览器）&gt;规范开发者（W3C/WHATWG）&gt;纯理论。除此之外，HTML5还引入了一种新的安全模型来保证HTML5足够安全。</p>
+        </div>
+        <div class="intro-col">
+          <img class="icon" src="images/2.png" alt="CSS3">
+          <p>【HTML5】HTML5不仅仅是HTML规范的当前最新版本，HTML5进化的重大意义还在于HTML5从技术层面带来了八个类别的革新。HTML5规范以&ldquo;用户至上&rdquo;为宗旨。也就是说在遇到冲突时，规范的优先级为：用户&gt;页面作者&gt;实现者（浏览器）&gt;规范开发者（W3C/WHATWG）&gt;纯理论。除此之外，HTML5还引入了一种新的安全模型来保证HTML5足够安全。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 底部平台支持 -->
+  <section class="platform">
+    <div class="container">
+      <h2>平台支持</h2>
+      <div class="platform-items">
+        <div class="platform-item">
+          <img src="images/3.png" alt="原生移动APP开发">
+          <p>原生移动APP开发</p>
+        </div>
+        <div class="platform-item">
+          <img src="images/4.png" alt="微信公众平台开发">
+          <p>微信公众平台开发</p>
+        </div>
+        <div class="platform-item">
+          <img src="images/5.png" alt="网站开发">
+          <p>网站开发</p>
+        </div>
+        <div class="platform-item">
+          <img src="images/6.png" alt="桌面应用开发">
+          <p>桌面应用开发</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
